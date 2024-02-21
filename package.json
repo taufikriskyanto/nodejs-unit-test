@@ -8,7 +8,7 @@
     "test": "jest"
   },
   "jest": {
-    "verbose" : true,
+    "verbose": true,
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
     }
@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/taufikriskyanto/nodejs-unit-test#readme",
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0"
